@@ -1,1 +1,131 @@
 /* TESTIMONIALS */
+.testimonials {
+  padding: 80px 0;
+}
+
+@media screen and (min-wdith: 768px) {
+  .testimonials {
+    padding: 100px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .testimonials {
+    padding: 150px 0;
+  }
+}
+
+.container {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 100px;
+  }
+}
+.testimonials__title {
+  color: var(--white, #fcf9f9);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.0025em;
+  margin-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials__title {
+    font-size: 44px;
+    line-height: 1.38;
+    letter-spacing: -0.03em;
+  }
+}
+
+.testimonials__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials__list {
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .testimonials__list {
+    gap: 26px;
+  }
+}
+
+.testimonials__item {
+  border-radius: 4px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  padding: 24px 18px 18px 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .testimonials__item:nth-last-child(-n + 2) {
+    display: none;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .testimonials__item:nth-last-child(-n + 1) {
+    display: none;
+  }
+}
+
+.testimonials__img-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 4px 0px rgba(16, 24, 40, 0.06);
+  transform: translate(0%, -100%);
+  max-height: 34px;
+}
+
+.testimonials__subtitle {
+  color: var(--white, #fcf9f9);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.testimonials__text {
+  color: rgba(252, 249, 249, 0.4);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 291px;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials__text {
+    font-size: 16px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .testimonials__text {
+    max-width: 306px;
+  }
+}
