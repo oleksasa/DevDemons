@@ -1,1 +1,51 @@
 /* OUR-COLLECTION */
+.collection {
+
+}
+
+.title-section-collection {
+    color: var(--white, #FCF9F9);
+    font-family: Manrope;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.38em;
+    letter-spacing: -0.06rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.collection-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    column-gap: 1.25rem;
+}
+
+.collection-card {
+
+}
+
+.collection-img {
+
+}
+
+.collection-card-content {
+
+}
+
+.title-img {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0.04375rem;
+    text-transform: uppercase;
+}
+
+.price {
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 0.875rem;
+    line-height: 1em;
+    letter-spacing: 0.04375rem;
+}
