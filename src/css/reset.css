@@ -1,35 +1,52 @@
 /* Reset styles */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+body {
+    color: #FCF9F9;
+    background-color: #1C2225;
+    font-family: Manrope, sans-serif;
+    font-weight: 400;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  input {
+    width: 100%;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    input {
+      min-width: 264px;
+    }
+  }
+  
+  textarea {
+    outline: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+  }
+  
