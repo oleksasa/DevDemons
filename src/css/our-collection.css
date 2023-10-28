@@ -78,6 +78,10 @@
      max-width: 768px;
     }
 
+    .img {
+        width: 342px;        
+    }
+
  .collection-list {
      flex-direction: row;
      flex-wrap: wrap;
@@ -117,6 +121,10 @@
         padding-right: 15px;
     }
 
+    .img {
+        width: 347px;
+    }
+
     .collection-list {
         justify-content: center;
         row-gap: 40px;
@@ -128,5 +136,7 @@
 }
         /* Desktop 2*/
 @media screen and (min-width: 1440px) {
-    
+    .img {
+        width: 400px;
+    }
 }
