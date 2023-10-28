@@ -123,7 +123,10 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-
+    .ornament {
+        background-image: url(../img/ornament-collection-desctop-small.png);    
+    }
+     
     .img {
         width: 347px;
     }
@@ -141,5 +144,9 @@
 @media screen and (min-width: 1440px) {
     .img {
         width: 400px;
+    }
+
+    .ornament {
+        background-image: url(../img/ornament-collection-desctop.png);
     }
 }
