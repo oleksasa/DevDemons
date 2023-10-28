@@ -1,1 +1,142 @@
 /* OUR-COLLECTION */
+.collection {
+    padding-bottom: 80px;
+}
+
+.container-collection {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-section-collection {
+    color: var(--white, #FCF9F9);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.38em;
+    letter-spacing: -0.96px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.collection-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.collection-card {
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.collection-img {
+    width: 100%;
+}
+
+.collection-card-content {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding-top: 18px;
+}
+
+.title-img {
+    color: var(--white, #FCF9F9);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.ornament {
+    width: 199px;
+    height: 177px;
+    background-image: url(../img/elements.png);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+
+.price {
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    line-height: 1em;
+    letter-spacing: 0.7px;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+ .container-collection {
+     max-width: 768px;
+    }
+
+    .img {
+        width: 342px;        
+    }
+
+ .collection-list {
+     flex-direction: row;
+     flex-wrap: wrap;
+     row-gap: 20px;
+     align-items: center;
+     column-gap: 20px;
+ }
+
+ .collection-card {
+     margin-bottom: 0;
+     width: calc((100% - 20px) / 2);
+ }
+
+ .title-img {
+    font-size: 18px;
+    line-height: 1em;
+    letter-spacing: 0.9px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+ }
+
+ .price {
+    font-size: 18px;
+    line-height: 1em;
+    letter-spacing: 0.9px;
+ }
+
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px) {
+    .container-collection {
+        max-width: 1280px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .img {
+        width: 347px;
+    }
+
+    .collection-list {
+        justify-content: center;
+        row-gap: 40px;
+    }
+    
+    .collection-card {
+        width: calc((100% - 40px) / 3);
+    }
+}
+        /* Desktop 2*/
+@media screen and (min-width: 1440px) {
+    .img {
+        width: 400px;
+    }
+}
