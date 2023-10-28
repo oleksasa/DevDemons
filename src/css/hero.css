@@ -12,7 +12,7 @@ font-weight: 400;
 line-height: 1.23; 
 letter-spacing: -0.03em;
 }
-span{
+.hero span{
 color: var(--white, #ECD979);
 }
 .hero-btn{
