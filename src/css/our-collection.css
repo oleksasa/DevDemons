@@ -1,6 +1,7 @@
 /* OUR-COLLECTION */
 .collection {
     padding-bottom: 80px;
+    position: relative;
 }
 
 .container-collection {
@@ -56,11 +57,9 @@
 }
 
 .ornament {
-    width: 199px;
-    height: 177px;
-    background-image: url(../img/elements.png);
-    background-size: cover;
-    background-repeat: repeat;
+    background-image: url(../img/ornament-collection-mob.png);
+    background-repeat: no-repeat;
+    background-position: 0 300px;
 }
 
 
@@ -82,6 +81,10 @@
         width: 342px;        
     }
 
+    .ornament {
+        background-image: url(../img/ornament-collection-tab.png);
+    }
+    
  .collection-list {
      flex-direction: row;
      flex-wrap: wrap;
