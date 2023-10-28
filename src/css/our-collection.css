@@ -124,5 +124,10 @@
     
     .collection-card {
         width: calc((100% - 40px) / 3);
-        }
+    }
+}
+        /* Desktop 2*/
+@media screen and (min-width: 1440px) {
+    
+
 }
