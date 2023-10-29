@@ -61,30 +61,30 @@ button {
 }
 
 .title {
-  color: #FCF9F9;
-font-family: Manrope;
-font-size: 44px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.45;
-letter-spacing: -1.32px;
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.37;
+  letter-spacing: -0.96px;
 }
 
 .global-title {
-  color: #FCF9F9;
-font-family: Manrope;
-font-size: 64px;
-font-style: normal;
-line-height: 1.15; 
-letter-spacing: -1.92px;
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 44px;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: -1.32px;
 }
 
 .text {
   color: rgba(252, 249, 249, 0.4);
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   line-height: normal;
-  letter-spacing: -0.64px;
+  letter-spacing: -0.56px;
 }
 
 @media screen and (max-width: 1440px) {
@@ -99,14 +99,25 @@ letter-spacing: -1.92px;
   }
 }
 
-
 @media screen and (min-width: 768px) {
   .container {
     max-width: 704px;
   }
+
+  .text {
+    font-size: 16px;
+    letter-spacing: -0.64px;
+  }
+
+  .title {
+    font-size: 44px;
+    line-height: 1.45;
+    letter-spacing: -1.32px;
+  }
+
+  .global-title {
+    font-size: 64px;
+    line-height: 1.15;
+    letter-spacing: -1.92px;
+  }
 }
-
-
-
-
-
