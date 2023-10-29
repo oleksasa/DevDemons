@@ -1,12 +1,10 @@
 .testimonials {
-  display: flex;
-  justify-content: center;
-  padding: 80px 20px;
+  padding: 80px 0;
 }
 
 .testimonials__title {
-  display: flex;
-  align-items: start;
+  /* display: flex;
+  align-items: start; */
   margin-bottom: 40px;
 }
 
@@ -72,7 +70,7 @@
 
 @media screen and (min-width: 768px) {
   .testimonials {
-    padding: 100px 36px;
+    padding: 100px 16px;
   }
 
   .testimonials__list {
@@ -82,7 +80,7 @@
 
 @media screen and (min-width: 1280px) {
   .testimonials {
-    padding: 150px 100px;
+    padding: 150px 80px;
   }
 
   .testimonials__list {
