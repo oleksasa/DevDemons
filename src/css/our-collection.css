@@ -60,6 +60,7 @@
 .title-img {
     color: var(--white, #FCF9F9);
     font-size: 14px;
+    font-weight: 500;
     line-height: 1em;
     letter-spacing: 0.7px;
     text-transform: uppercase;
