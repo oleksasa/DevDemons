@@ -16,7 +16,6 @@
 }
 
 .title-section-collection {
-    color: var(--white, #FCF9F9);
     font-size: 32px;
     line-height: 1.38em;
     letter-spacing: -0.96px;
@@ -56,7 +55,6 @@
 }
 
 .title-img {
-    color: var(--white, #FCF9F9);
     font-size: 14px;
     font-weight: 500;
     line-height: 1em;
