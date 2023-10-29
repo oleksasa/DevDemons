@@ -63,20 +63,20 @@ button {
 .title {
   color: #fcf9f9;
   font-family: Manrope;
-  font-size: 32px;
+  font-size: 44px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.37;
-  letter-spacing: -0.96px;
+  line-height: 1.45;
+  letter-spacing: -1.32px;
 }
 
 .global-title {
   color: #fcf9f9;
   font-family: Manrope;
-  font-size: 44px;
+  font-size: 64px;
   font-style: normal;
-  line-height: 1.22;
-  letter-spacing: -1.32px;
+  line-height: 1.15;
+  letter-spacing: -1.92px;
 }
 
 .text {
