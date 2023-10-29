@@ -87,18 +87,6 @@ button {
   letter-spacing: -0.56px;
 }
 
-@media screen and (max-width: 1440px) {
-  .container {
-    max-width: 1240px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1082px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .container {
     max-width: 704px;
@@ -121,3 +109,17 @@ button {
     letter-spacing: -1.92px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1082px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    max-width: 1240px;
+  }
+}
+
+
