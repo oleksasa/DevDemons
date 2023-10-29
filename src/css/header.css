@@ -20,7 +20,6 @@
   display: flex; /* display: inline-flex; */
   align-items: flex-start;
   gap: 25px;
-  list-style: none;
 }
 
 .header-menu-item {
@@ -32,6 +31,7 @@
 }
 
 .header-menu-link {
+  list-style: none;
 }
 
 .address {
