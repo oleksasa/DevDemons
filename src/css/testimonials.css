@@ -25,6 +25,7 @@
   border-radius: 4px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   transition: transform 0.5s, background-color 0.5s, color 0.5s;
+  cursor: pointer;
 }
 
 /* .testimonials__item:hover,
@@ -57,7 +58,6 @@
 }
 
 .testimonials__subtitle {
-  color: var(--white, #fcf9f9);
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;
