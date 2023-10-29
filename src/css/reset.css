@@ -28,7 +28,7 @@ input {
 
 @media screen and (min-width: 768px) {
   input {
-    min-width: 264px;
+    min-width: 476px;
   }
 }
 
@@ -61,7 +61,6 @@ button {
 }
 
 .title {
-  color: #fcf9f9;
   font-family: Manrope;
   font-size: 32px;
   font-style: normal;
@@ -71,7 +70,6 @@ button {
 }
 
 .global-title {
-  color: #fcf9f9;
   font-family: Manrope;
   font-size: 44px;
   font-style: normal;
@@ -85,18 +83,6 @@ button {
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.56px;
-}
-
-@media screen and (max-width: 1440px) {
-  .container {
-    max-width: 1240px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1082px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -121,3 +107,17 @@ button {
     letter-spacing: -1.92px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1082px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    max-width: 1240px;
+  }
+}
+
+
