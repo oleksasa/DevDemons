@@ -1,7 +1,63 @@
 /* HEADER */
 
+.header {
+}
+
 .header-container {
   display: flex;
   padding-top: 31px;
   padding-bottom: 57px;
+}
+
+.logo-img {
+}
+.header-navigation {
+  display: inline-flex;
+  align-items: center;
+}
+.header-menu {
+}
+.header-menu-item {
+}
+.address {
+}
+.address-menu {
+}
+.address-item {
+}
+.address-link {
+}
+.soc-menu {
+}
+.soc-item {
+}
+.soc-link {
+}
+.soc-icon {
+}
+.menu-header-btn {
+}
+.menu-icon {
+}
+.mob-menu {
+}
+.mob-address {
+}
+.mob-address-menu {
+}
+.mob-address-item {
+}
+.mob-address-link {
+}
+.mob-close-btn {
+}
+.mob-btn-icon {
+}
+.mob-header-navigation {
+}
+.mob-header-menu {
+}
+.mob-header-menu-item {
+}
+.mob-menu-img {
 }
