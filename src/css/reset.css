@@ -55,9 +55,10 @@ button {
 }
 
 .container {
-  max-width: 335px;
+  max-width: 375px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 20px;
 }
 
 .title {
@@ -87,7 +88,7 @@ button {
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 704px;
+    max-width: 744px;
   }
 
   .text {
@@ -110,13 +111,13 @@ button {
 
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 1082px;
+    max-width: 1122px;
   }
 }
 
 @media screen and (max-width: 1440px) {
   .container {
-    max-width: 1240px;
+    max-width: 1280px;
   }
 }
 
