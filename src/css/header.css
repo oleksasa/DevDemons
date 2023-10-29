@@ -1,1 +1,7 @@
 /* HEADER */
+
+.header-container {
+  display: flex;
+  padding-top: 31px;
+  padding-bottom: 57px;
+}

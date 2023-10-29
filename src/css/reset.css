@@ -61,22 +61,22 @@ button {
 }
 
 .title {
-  color: #FCF9F9;
-font-family: Manrope;
-font-size: 44px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.45;
-letter-spacing: -1.32px;
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: -1.32px;
 }
 
 .global-title {
-  color: #FCF9F9;
-font-family: Manrope;
-font-size: 64px;
-font-style: normal;
-line-height: 1.15; 
-letter-spacing: -1.92px;
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 64px;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: -1.92px;
 }
 
 .text {
