@@ -17,7 +17,7 @@
 }
 
 .header-menu {
-  display: none; /* display: inline-flex; */
+  display: flex; /* display: inline-flex; */
   align-items: flex-start;
   gap: 25px;
   list-style: none;
