@@ -18,7 +18,17 @@
 .header-menu {
 }
 .header-menu-item {
+  color: var(--white, #fcf9f9);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29em;
+  text-transform: uppercase;
+  gap: 25px;
 }
+
+.header-menu-link {
+}
+
 .address {
 }
 .address-menu {
