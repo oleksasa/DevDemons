@@ -2,20 +2,25 @@
 .collection {
     padding-bottom: 80px;
     position: relative;
+    background-image: url(../img/ornament-collection-mob.png);
+    background-repeat: no-repeat;
+    background-position: 0 300px;
+    height: auto;
 }
 
 .container-collection {
     max-width: 375px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
 }
+
+.ornament {
+    
+     }
 
 .title-section-collection {
     color: var(--white, #FCF9F9);
     font-size: 32px;
-    font-weight: 500;
     line-height: 1.38em;
     letter-spacing: -0.96px;
     margin-bottom: 40px;
@@ -29,13 +34,14 @@
     
 }
 
-.collection-card {
+.collection-card:not(:last-child) {
     margin-bottom: 20px;
     border-radius: 4px;
 }
 
 .collection-img {
     width: 100%;
+    border-radius: 4px;
 }
 
 .collection-card-content {
@@ -50,18 +56,14 @@
 .title-img {
     color: var(--white, #FCF9F9);
     font-size: 14px;
-    font-weight: 500;
     line-height: 1em;
     letter-spacing: 0.7px;
     text-transform: uppercase;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
-
-.ornament {
-    background-image: url(../img/ornament-collection-mob.png);
-    background-repeat: no-repeat;
-    background-position: 0 300px;
-}
-
 
 .price {
     color: rgba(252, 249, 249, 0.40);
@@ -74,14 +76,14 @@
 
 @media screen and (min-width: 768px) {
  .container-collection {
-     max-width: 768px;
+     max-width: 704px;
     }
 
     .img {
         width: 342px;        
     }
 
-    .ornament {
+    .collection {
         background-image: url(../img/ornament-collection-tab.png);
     }
     
@@ -102,10 +104,7 @@
     font-size: 18px;
     line-height: 1em;
     letter-spacing: 0.9px;
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    
  }
 
  .price {
@@ -123,10 +122,7 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-    .ornament {
-        background-image: url(../img/ornament-collection-desctop-small.png);    
-    }
-     
+         
     .img {
         width: 347px;
     }
@@ -146,7 +142,4 @@
         width: 400px;
     }
 
-    .ornament {
-        background-image: url(../img/ornament-collection-desctop.png);
     }
-}
