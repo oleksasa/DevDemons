@@ -14,7 +14,6 @@
 }
 
 .testimonials__item {
-  max-width: 340px;
   padding: 0px 18px 18px 18px;
   border-radius: 4px;
   border: 1px solid rgba(252, 249, 249, 0.1);
@@ -52,7 +51,6 @@
 }
 
 .testimonials__text {
-  max-width: 300px;
   text-align: center;
 }
 
@@ -88,7 +86,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   .testimonials__item {
     max-width: 396px;
   }
@@ -96,7 +94,7 @@
   .testimonials__text {
     max-width: 360px;
   }
-}
+} */
 
 /* @media screen and (min-width: 2560px) {
 } */
