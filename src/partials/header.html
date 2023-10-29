@@ -7,7 +7,7 @@
       src="../img/logo.svg"
       alt="logo-icon"
       width="44"
-      height="40"
+      height="39"
     />
     <nav class="header-navigation">
       <ul class="header-menu">
@@ -68,11 +68,9 @@
       </li>
     </ul>
 
-    <button type="button" class="menu-header-btn">
-      <svg class="menu-icon" width="44" height="30">
-        <use href="../img/burger.svg"></use>
-      </svg>
-    </button>
+    <div class="burger">
+      <span></span>
+    </div>
   </div>
 
   <!-- -------------Mob-menu------------ -->
@@ -114,4 +112,10 @@
       />
     </div>
   </div>
+  <script>
+    document.querySelector('.burger').addEventListener('click', function () {
+      this.classList.toggle('active');
+      document.querySelector('.nav').classList.toggle('open');
+    });
+  </script>
 </header>
