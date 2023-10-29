@@ -62,7 +62,6 @@ button {
 }
 
 .title {
-  font-family: Manrope;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
@@ -71,7 +70,6 @@ button {
 }
 
 .global-title {
-  font-family: Manrope;
   font-size: 44px;
   font-style: normal;
   line-height: 1.22;
