@@ -1,18 +1,18 @@
 /* YOUR-ORDER */
 .your-order {
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 335px;
+
 }
 
 .background-image-girl {
     background-image: url(../img/bg-girl-mob.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 0;
+    background-position: center top;
     background-size: contain;
     min-width: 375px;
-    min-height: 550px;
-}
+    height: 550px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+    }
 
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
@@ -29,7 +29,6 @@
 .order-title {
     letter-spacing: -0.03em;
     margin-bottom: 40px;
-    padding-top: 80px;
     text-align: left;
 }
 
