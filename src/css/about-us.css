@@ -157,6 +157,10 @@ font-size: 16px;
           url(../img/ornament-about-use-dsctop-small@2x.png);
       }
     }
+    .about-group-text{
+        margin: 46px 0;
+    }
+    
 
     .about-img-inner{
         width: 594px;
@@ -195,7 +199,9 @@ font-size: 16px;
       }
     }
   
-    
+    .about-group-text{
+        margin: 78px 0;
+    }
     
     .about-img-inner{
         width: 709px;
