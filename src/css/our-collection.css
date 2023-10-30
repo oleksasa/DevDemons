@@ -4,15 +4,9 @@
     position: relative;
 }
 
-  .collection-ornament {
+.collection-ornament {
       position: absolute;
       top: 8%;
-}
-
-.container-collection {
-    max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .title-section-collection {
@@ -76,10 +70,7 @@
 /* Tablet */
 
 @media screen and (min-width: 768px) {
- .container-collection {
-     max-width: 704px;
-    }
-
+ 
  .collection-ornament {
     top: 10%;
   }
@@ -115,12 +106,7 @@
 
 /* Desktop */
 @media screen and (min-width: 1280px) {
-    .container-collection {
-        max-width: 1280px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-         
+             
     .collection-ornament {
         top: 18%;
     }
