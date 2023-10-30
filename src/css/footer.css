@@ -1,1 +1,121 @@
 /* footer */
+
+@media (min-width: 320px) {
+  /* CSS rules for screens 320px and wider go here */
+  .container-footer {
+    border-top: 1px solid rgba(252, 249, 249, 0.1);
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px; /* Отступ слева 20px */
+    padding-right: 75px; /* Отступ справа 75px */
+    padding-top: 40px; /* Отступ сверху 40px */
+    padding-bottom: 40px; /* Отступ снизу 40px */
+  }
+
+
+  .menu-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px; /* Отступ между элементами */
+  }
+
+  .footer-link-class {
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+ /* Цвет текста для ссылок (может быть другим) */
+  }
+
+  .menu-item:first-child {
+    margin-bottom: 0; /* Убираем отступ снизу для "About us" */
+  }
+  /* .menu {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-right: 75px;
+    padding-bottom: 40px;
+    position: relative;
+  } */
+
+  .footer-link-class {
+    color: var(--white, #fcf9f9);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    text-transform: uppercase;
+  }
+
+  .container-footer-div {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+    margin-right: 40px;
+    text-align: left;
+  }
+
+  .footer-paragraph-text {
+    color: var(--white, #fcf9f9);
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px; /* 122.727% */
+    letter-spacing: -1.32px;
+  }
+
+  .ukrainian-span {
+    color: var(--white, #ecd979);
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: -1.32px;
+  }
+
+  .ornament-picture {
+    background-image: url('../img/ornament-footer-mob.png');
+    background-size: cover;
+    background-position: center bottom; /* Сдвигаем фон к нижнему краю */
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+  }
+}
+
+/* Media query for screens with a minimum width of 375px */
+@media (min-width: 375px) {
+  /* CSS rules for screens 375px and wider go here */
+}
+
+/* Media query for screens with a minimum width of 768px */
+@media (min-width: 768px) {
+  /* CSS rules for screens 768px and wider go here */
+}
+
+/* Media query for screens with a minimum width of 1280px */
+@media (min-width: 1280px) {
+  /* CSS rules for screens 1280px and wider go here */
+}
+
+/* Media query for screens with a minimum width of 1440px */
+@media (min-width: 1440px) {
+  /* CSS rules for screens 1440px and wider go here */
+}
+
+.ukrainian-span {
+  color: var(--white, #ecd979);
+  font-family: Manrope;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 74px;
+  letter-spacing: -1.92px;
+}
