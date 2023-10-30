@@ -1,1 +1,31 @@
 /* about-us */
+.about-us{
+    padding: 80px 20px;
+}
+.about-title{
+margin-bottom: 40px;
+font-size: 32px;
+font-weight: 500;
+line-height: 1.37; 
+letter-spacing: 0.03em;
+
+}
+
+.about-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+
+}
+.about-text {
+    color: rgba(252, 249, 249, 0.40);
+font-size: 14px;
+line-height: normal;
+letter-spacing: 0.04em;
+}
+.about-img {}
+
+.about-img-inner{
+border-radius: 4px;
+}
