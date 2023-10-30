@@ -11,23 +11,25 @@
         
         <picture class="hero-picture">
           <source
-            srcset="./img/hero/girl-desctop.jpeg 1x, ./img/hero/girl-desctop@2x.jpeg 2x"
-            media="(min-width: 1280px)"
+            srcset="./img/hero/girl-mob.jpeg 1x, ./img/hero/girl-mob@2x.jpeg 2x"
+            media="(max-width: 767px)"
           />
           <source
             srcset="./img/hero/Girl-tab.jpeg 1x, ./img/hero/Girl-tab@2x.jpeg 2x"
             media="(min-width: 768px)"
           />
           <source
-            srcset="./img/hero/girl-mob.jpeg 1x, ./img/hero/girl-mob@2x.jpeg 2x"
-            media="(max-width: 767px)"
-          />
+            srcset="./img/hero/girl-desctop.jpeg 1x, ./img/hero/girl-desctop@2x.jpeg 2x"
+            media="(min-width: 1280px)"
+          />       
+          
           <img
-            src="./img/hero/Girl-tab.jpeg"
+            src="./img/hero/girl-desctop.jpeg"
             alt="Girl"
-            width="413"
-            height="575"
+            width="392"
+            height="545"
             class="hero-global-img"
+            loading="lazy" 
             
           /></div>
       
@@ -45,6 +47,7 @@
                 width="157"
                 height="191"
                 class="hero-img"
+                loading="lazy" 
               />
             
       
