@@ -1,18 +1,13 @@
 /* YOUR-ORDER */
 
-.container {
-  max-width: 375px;
-}
-
 .background-image-girl {
   background-image: url(../img/bg-girl-mob.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: contain;
-  min-width: 375px;
+  min-width: 100%;
   min-height: 550px;
-  margin: -20px;
-  margin-bottom: 80px;
+  margin: 0 auto;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -32,33 +27,28 @@
   margin-bottom: 40px;
   text-align: left;
   width: 255px;
+  margin-top: 80px;
 }
 
 .order-title span {
   color: #ecd979;
 }
 
-.form-order {
-  padding-bottom: 80px;
-}
-
 .form-input {
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: transparent;
-  width: 100%;
   height: 47px;
   margin-bottom: 20px;
-  padding-right: 16px;
-  padding-left: 16px;
-  color: rgb(252, 248, 248);
+  color: #fcf8f8;
   font-size: 14px;
   transition: border-color 250ms linear;
+  padding: 14px 16px;
 }
 
 .form-input:focus {
   border: 1px solid rgba(252, 249, 249, 0.6);
-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input::placeholder {
@@ -72,13 +62,13 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 100%;
   height: 196px;
   margin-bottom: 40px;
-  padding: 14px 16px;
   color: hsl(0, 33%, 98%);
   transition: border-color 250ms linear;
   border-radius: 8px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: transparent;
   resize: none;
+  padding: 14px 16px;
 }
 
 .form-textarea::placeholder {
@@ -89,8 +79,8 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-textarea:focus {
-    border: 1px solid rgba(252, 249, 249, 0.6);
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(252, 249, 249, 0.6);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-btn {
@@ -104,34 +94,38 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 10px;
   min-width: 145px;
   height: 49px;
   margin: 0 auto;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-btn:focus,
 .form-btn:hover {
-        border: 1px solid #ECD979;
+  border: 1px solid #ecd979;
 }
 
 .btn-icon {
   fill: #ecd979;
 }
 
+/* ==================== */
+
 /* MEDIA for tablet */
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 744px;
+  .your-order-main {
+    max-width: 704px;
   }
 
   .background-image-girl {
+    background-image: url(../img/bg-girl-tab.jpg);
     max-width: 768px;
     min-height: 776px;
+    margin: 0;
+    border: 0;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -143,19 +137,14 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .order-title {
-    font-size: 44px;
-    font-weight: 500;
-    line-height: 1, 31;
-    letter-spacing: -0.03em;
     width: 542px;
   }
 
   .form-order {
-    padding-bottom: 100px;
+    margin-bottom: 100px;
   }
 
   .form-input {
-    width: 100%;
     height: 50px;
   }
 
@@ -172,129 +161,203 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
     min-width: 168px;
     height: 50px;
-    padding: 14px 39px;
-        font-size: 16px;
-        letter-spacing: -0.04em;
+    font-size: 16px;
+    letter-spacing: -0.04em;
   }
 
-.your-order-main {
+  .your-order-main {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
     align-items: flex-start;
     width: 100%;
-}
+  }
 
-.image-your-order {
+  .image-your-order {
     display: block;
-     position: relative;
-    padding: 0 32px 179px 98px;
-}
+    position: relative;
+  }
 
-.order-img {
+  .order-img {
     width: 638px;
     height: 521px;
     flex-shrink: 0;
     border-radius: 4px;
-}
+  }
 
-.image-your-order::before {
-    content: "";
+  .image-your-order {
+    background-image: url(../img/ornament-your-order-tab.png);
+  }
+
+  .image-your-order::before {
+    content: '';
     position: absolute;
     background-image: url(../img/ornament-your-order-tab@2x.png);
     background-repeat: no-repeat;
-background-position: left top;
+    background-position: left top;
     background-size: contain;
-    
-    left: 0;
-    bottom: 100px;
+    left: -100px;
+    bottom: -80px;
     height: 484px;
     width: 545px;
     z-index: -1;
-
+  }
 }
 
-  }
+/* =================== */
+
+/* MEDIA for desk 1280 */
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1222px;
-    padding: 0;
+  .your-order-main {
+    max-width: 1156px;
   }
 
-.background-image-girl {
+  .background-image-girl {
     background-image: url(../img/bg-girl-desctop-small.jpg);
-min-width: 1222px;
+    max-width: 1282px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 150px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .background-image-girl {
+      background-image: url(../img/bg-girl-desctop-small@2x.jpg);
+    }
+  }
+
+  .your-order-main {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    max-width: 1156px;
+  }
+
+  .image-your-order {
+    display: block;
+    position: relative;
+  }
+
+  .title-and-form {
+    margin-right: 134px;
+  }
+
+  .order-title {
+    width: 542px;
+    margin-top: 0px;
+  }
+
+  .form-order {
+    margin-bottom: 0;
+  }
+
+  .form-input {
+    height: 50px;
+  }
+
+  .form-btn {
+    min-width: 168px;
+    height: 50px;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+  }
+
+  .order-img {
+    min-width: 524px;
+    height: 521px;
+    flex-shrink: 0;
+    border-radius: 4px;
+  }
+
+  .image-your-order {
+    background-image: url(../img/ornament-your-order-dsctop-small.png);
+  }
+
+  .image-your-order::before {
+    background-image: url(../img/ornament-your-order-dsctop-small@2x.png);
+    bottom: -100px;
+    left: -60px;
+    height: 483px;
+  }
+}
+
+/* ================== */
+
+/* MEDIA for desk 1440 */
+
+@media screen and (min-width: 1440px) {
+  .background-image-girl {
+    background-image: url(../img/bg-girl-desctop.jpg);
+    max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     margin: 0 auto;
     margin-bottom: 150px;
-}
+  }
 
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .background-image-girl {
-        background-image: url(../img/bg-girl-desctop-small@2x.jpg);
+      background-image: url(../img/bg-girl-desctop@2x.jpg);
     }
-}
+  }
 
-.your-order-main {
+  .your-order-main {
     display: flex;
-    justify-content: center;
     align-items: flex-start;
     flex-direction: row;
     gap: 50px;
-    width: 100%; 
-}
+    width: 100%;
+  }
 
-.image-your-order {
+  .image-your-order {
     display: block;
-position: relative;
-padding: 0 0 150px 64px;
-}
+    position: relative;
+  }
 
-
-.title-and-form {
+  .title-and-form {
     position: relative;
     margin-right: 134px;
-}
+  }
 
-.order-title {
-    font-size: 44px;
-    font-weight: 500;
-    line-height: 1, 31;
-    letter-spacing: -0.03em;
+  .order-title {
     width: 542px;
-}
+  }
 
-.form-order {
-    padding-bottom: 150px;
-}
-
-.form-input {
-    width: 100%;
+  .form-input {
     height: 50px;
-}
+  }
 
-.form-btn { 
-min-width: 168px;
-height: 50px;
-font-size: 16px;
+  .form-btn {
+    min-width: 168px;
+    height: 50px;
+    font-size: 16px;
     letter-spacing: -0.04em;
-}
+  }
 
-.order-img {
+  .order-img {
     min-width: 524px;
     height: 521px;
     flex-shrink: 0;
     border-radius: 4px;
+  }
+
+  .image-your-order {
+    background-image: url(../img/ornament-your-order-dsctop.png);
+  }
+
+  .image-your-order::before {
+    background-image: url(../img/ornament-your-order-dsctop@2x.png);
+    bottom: -100px;
+    left: -160px;
+  }
 }
 
-.image-your-order::before {
-    bottom: 40px;
-    left: -20px;
-}
-
- }
+/* ================================== */
