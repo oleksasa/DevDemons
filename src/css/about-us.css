@@ -12,7 +12,7 @@
   background-position-y: bottom;
   background-size: auto;
   margin: 0 auto;
-  fill: rgb(100, 103, 103);
+ 
 }
 
 @media (min-device-pixer-ratio: 2),
@@ -50,3 +50,142 @@ letter-spacing: 0.04em;
 .about-img-inner{
 border-radius: 4px;
 }
+
+
+/*================== Screen 768 =============*/
+
+@media screen and (min-width: 768px) {
+    .about-us{
+        padding: 100px 32px;
+        max-width: 768px;
+       
+    }
+.about-title{
+font-size: 44px;
+font-weight: 500;
+line-height: 1.45;
+
+}
+.about-list{
+    margin-bottom: 40px;
+}
+
+.about-text {
+font-size: 16px;
+
+
+}
+
+
+.about-container{
+
+    background-image:
+    url(../img/ornament-about-use-tab.png);
+ 
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: bottom;
+  background-size: auto;
+
+  
+}
+
+@media (min-device-pixer-ratio: 2),
+  (min-resolution: 196dpi),
+  (min-resolution: 2dppx) {
+  .about-container {
+    background-image: 
+      url(../img/ornament-about-use-tab@2x.png);
+  }
+}
+.about-img-inner{
+    width: 704px;
+    height: 545px;
+}
+
+.about-us-group{
+    display: flex;
+    flex-direction: row;
+}
+
+}
+/*================== /Screen 768 =============*/
+
+/*================== Screen 1280 =============*/
+
+@media screen and (min-width: 1280px) {
+    .about-us{
+        padding: 150px 100px;
+        max-width: 1280px;
+       
+    }
+
+    .about-container{
+        background-image:
+        url(../img/ornament-about-use-dsctop-smal.png);
+     
+      background-repeat: no-repeat;
+      background-position: right;
+      background-position-y: bottom;
+      background-size: auto;
+      margin: 0 auto;
+
+    }
+    
+    @media (min-device-pixer-ratio: 2),
+      (min-resolution: 196dpi),
+      (min-resolution: 2dppx) {
+      .about-container {
+        background-image: 
+          url(../img/ornament-about-use-dsctop-small@2x.png);
+      }
+    }
+
+    .about-img-inner{
+        width: 594px;
+        height: 545px;
+    }
+   
+}
+
+
+
+/*================== /Screen 1280 =============*/
+
+/*================== Screen 1440 =============*/
+
+@media screen and (min-width: 1440px) {
+   
+    
+
+    .about-container{
+        background-image:
+        url(../img/ornament-about-use-dsctop.png);
+     
+      background-repeat: no-repeat;
+      background-position: right;
+      background-position-y: bottom;
+      background-size: auto;
+      margin: 0 auto;
+    }
+    
+    @media (min-device-pixer-ratio: 2),
+      (min-resolution: 196dpi),
+      (min-resolution: 2dppx) {
+      .about-container {
+        background-image: 
+          url(../img/ornament-about-use-dsctop-@2x.png);
+      }
+    }
+
+    .about-img-inner{
+        width: 709px;
+        height: 545px;
+    }
+
+}
+
+
+
+
+/*================== /Screen 1440 =============*/
