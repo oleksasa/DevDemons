@@ -211,6 +211,7 @@
 @media screen and (min-width: 1280px) {
   .your-order-main {
     max-width: 1156px;
+    padding-bottom: 0;
   }
 
   .background-image-girl {
@@ -281,8 +282,8 @@
 
   .image-your-order::before {
     background-image: url(../img/ornament-your-order-dsctop-small@2x.png);
-    bottom: -100px;
-    left: -60px;
+    bottom: -140px;
+    left: -80px;
     height: 483px;
   }
 }
@@ -356,7 +357,7 @@
 
   .image-your-order::before {
     background-image: url(../img/ornament-your-order-dsctop@2x.png);
-    bottom: -100px;
+    bottom: -140px;
     left: -160px;
   }
 }
