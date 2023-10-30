@@ -80,9 +80,6 @@ display: none;
 
     
       @media screen and (min-width: 768px){
-        .container {
-          max-width: 704px;
-        }
         
         
         .hero-container{          
@@ -142,10 +139,7 @@ display: none;
             }   
       }
       @media screen and (min-width: 1280px){
-        .container {
-          max-width: 1082px;
-
-        }
+        
         .hero-container{
         
         padding-top: 58px;
@@ -183,9 +177,7 @@ display: none;
           }   
     }
       @media screen and (min-width: 1440px){
-        .container {
-          max-width: 1240px; 
-        }
+        
 
           .hero-global-title{
             font-size: 64px;
