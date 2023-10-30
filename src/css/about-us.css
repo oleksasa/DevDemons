@@ -1,229 +1,176 @@
 /* about-us */
-.about-us{
-    padding: 80px 20px;
-   
+.about-us {
+  padding: 80px 20px;
 }
-.about-container{
-    background-image:
-    url(../img/ornament-about-use-mob.png);
- 
+.about-container {
+  background-image: url(../img/ornament-about-use-mob.png);
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: bottom;
   background-size: auto;
   margin: 0 auto;
- 
 }
 
 @media (min-device-pixer-ratio: 2),
   (min-resolution: 196dpi),
   (min-resolution: 2dppx) {
   .about-container {
-    background-image: 
-      url(../img/ornament-about-use-mob@2x.png);
+    background-image: url(../img/ornament-about-use-mob@2x.png);
   }
 }
 
-.about-list:hover,
-.about-list:focus { 
-    padding: 6px;
-    border-radius: 4px;
-    border: 2px solid rgba(176, 186, 62, 0.951);
-    transition: ease-in-out;
-    cursor: pointer; 
+.text:hover {
+  color: rgb(148, 149, 149);
 }
-.text:hover{
-    color: aliceblue;
-    font-size: 18px;
-}
-.about-title{
-margin-bottom: 40px;
-font-size: 32px;
-font-weight: 500;
-line-height: 1.37; 
-letter-spacing: 0.03em;
 
+.title {
+  margin-bottom: 40px;
+  padding-left: 6px;
 }
 
 .about-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-bottom: 50px;
-
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 50px;
 }
+
 .about-text {
-    color: rgba(252, 249, 249, 0.40);
-font-size: 14px;
-line-height: normal;
-letter-spacing: 0.04em;
-}
-.about-img {}
+  padding: 6px;
 
-.about-img-inner{
-border-radius: 4px;
+  transition: transform 0.7s, color 0.7s;
+  cursor: pointer;
 }
 
+.about-text:hover,
+.about-text:focus {
+  transform: scale(1.1);
+border-radius: 5px;
+  border: 2px solid rgba(187, 192, 35, 0.804);
+}
+.text:hover,
+.text:focus {
+  color: rgb(175, 176, 178);
+}
+
+.about-img-inner {
+  border-radius: 4px;
+}
 
 /*================== Screen 768 =============*/
 
 @media screen and (min-width: 768px) {
-    .about-us{
-        padding: 100px 32px;
-        max-width: 768px;
-       
-    }
-
-    .about-us-group{
-        /*display: flex;
-        flex-direction: row;*/
-        gap: 40px;
-    }
-.about-group-text{
-
-}
-.about-title{
-font-size: 44px;
-font-weight: 500;
-line-height: 1.45;
-
-}
-.about-list{
-    margin-bottom: 40px;
-    
-
-}
-
-.about-text {
-font-size: 16px;
-
-
-}
-
-
-.about-container{
-
-    background-image:
-    url(../img/ornament-about-use-tab.png);
- 
-  background-repeat: no-repeat;
-  background-position: right;
-  background-position-y: bottom;
-  background-size: auto;
-
-  
-}
-
-@media (min-device-pixer-ratio: 2),
-  (min-resolution: 196dpi),
-  (min-resolution: 2dppx) {
-  .about-container {
-    background-image: 
-      url(../img/ornament-about-use-tab@2x.png);
+  .about-us {
+    padding: 100px 32px;
+    max-width: 768px;
   }
-}
-.about-img-inner{
+
+  .about-us-group {
+    gap: 40px;
+  }
+
+  .about-list {
+    margin-bottom: 40px;
+  }
+
+  .about-container {
+    background-image: url(../img/ornament-about-use-tab.png);
+
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+    background-size: auto;
+  }
+
+  @media (min-device-pixer-ratio: 2),
+    (min-resolution: 196dpi),
+    (min-resolution: 2dppx) {
+    .about-container {
+      background-image: url(../img/ornament-about-use-tab@2x.png);
+    }
+  }
+  .about-img-inner {
     width: 704px;
     height: 545px;
-}
-
-
-
+  }
 }
 /*================== /Screen 768 =============*/
 
 /*================== Screen 1280 =============*/
 
 @media screen and (min-width: 1280px) {
-    .about-us{
-        padding: 150px 100px;
-        max-width: 1440px;
-       
-    }
-    .about-us-group{
-        display: flex;
-        flex-direction: row;
-        gap: 50px;}
+  .about-us {
+    padding: 150px 100px;
+    max-width: 1440px;
+  }
+  .about-us-group {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
 
-    .about-list{
-        max-width: 481px;
-    
-    }
-    
-    .about-container{
-        background-image:
-        url(../img/ornament-about-use-dsctop-smal.png);
-     
-      background-repeat: no-repeat;
-      background-position: right;
-      background-position-y: bottom;
-      background-size: auto;
-      margin: 0 auto;
+  .about-list {
+    max-width: 481px;
+  }
 
-    }
-    
-    @media (min-device-pixer-ratio: 2),
-      (min-resolution: 196dpi),
-      (min-resolution: 2dppx) {
-      .about-container {
-        background-image: 
-          url(../img/ornament-about-use-dsctop-small@2x.png);
-      }
-    }
-    .about-group-text{
-        margin: 46px 0;
-    }
-    
+  .about-container {
+    background-image: url(../img/ornament-about-use-dsctop-smal.png);
 
-    .about-img-inner{
-        width: 594px;
-        height: 545px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+    background-size: auto;
+    margin: 0 auto;
+  }
+
+  @media (min-device-pixer-ratio: 2),
+    (min-resolution: 196dpi),
+    (min-resolution: 2dppx) {
+    .about-container {
+      background-image: url(../img/ornament-about-use-dsctop-small@2x.png);
     }
-   
+  }
+  .about-group-text {
+    margin: 46px 0;
+  }
+
+  .about-img-inner {
+    width: 594px;
+    height: 545px;
+  }
 }
-
-
 
 /*================== /Screen 1280 =============*/
 
 /*================== Screen 1440 =============*/
 
 @media screen and (min-width: 1440px) {
-   
+  .about-container {
+    background-image: url(../img/ornament-about-use-dsctop.png);
 
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+    background-size: auto;
+    margin: 0 auto;
+  }
 
-    .about-container{
-        background-image:
-        url(../img/ornament-about-use-dsctop.png);
-     
-      background-repeat: no-repeat;
-      background-position: right;
-      background-position-y: bottom;
-      background-size: auto;
-      margin: 0 auto;
+  @media (min-device-pixer-ratio: 2),
+    (min-resolution: 196dpi),
+    (min-resolution: 2dppx) {
+    .about-container {
+      background-image: url(../img/ornament-about-use-dsctop-@2x.png);
     }
-    
-    @media (min-device-pixer-ratio: 2),
-      (min-resolution: 196dpi),
-      (min-resolution: 2dppx) {
-      .about-container {
-        background-image: 
-          url(../img/ornament-about-use-dsctop-@2x.png);
-      }
-    }
-  
-    .about-group-text{
-        margin: 78px 0;
-    }
-    
-    .about-img-inner{
-        width: 709px;
-        height: 545px;
-    }
+  }
 
+  .about-group-text {
+    margin: 78px 0;
+  }
+
+  .about-img-inner {
+    width: 709px;
+    height: 545px;
+  }
 }
-
-
-
 
 /*================== /Screen 1440 =============*/
