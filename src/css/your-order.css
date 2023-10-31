@@ -23,11 +23,10 @@
 }
 
 .order-title {
+  width: 335px;
   letter-spacing: -0.03em;
-  margin-bottom: 40px;
-  text-align: left;
-  width: 255px;
   margin-top: 80px;
+  margin-bottom: 40px;
 }
 
 .order-title span {
@@ -94,6 +93,7 @@
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 10px;
   min-width: 145px;
@@ -118,7 +118,6 @@
 @media screen and (min-width: 768px) {
   .your-order-main {
     max-width: 704px;
-    padding-bottom: 79px;
   }
 
   .background-image-girl {
@@ -139,6 +138,8 @@
 
   .order-title {
     width: 542px;
+    height: 174px;
+    text-align: left;
   }
 
   .form-order {
@@ -163,7 +164,6 @@
     min-width: 168px;
     height: 50px;
     font-size: 16px;
-    letter-spacing: -0.04em;
   }
 
   .your-order-main {
@@ -211,13 +211,11 @@
 @media screen and (min-width: 1280px) {
   .your-order-main {
     max-width: 1156px;
-    padding-bottom: 0;
   }
 
   .background-image-girl {
     background-image: url(../img/bg-girl-desctop-small.jpg);
     max-width: 1282px;
-    background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     margin-left: 0;
@@ -234,15 +232,9 @@
   }
 
   .your-order-main {
-    display: flex;
     flex-direction: row;
     gap: 50px;
     max-width: 1156px;
-  }
-
-  .image-your-order {
-    display: block;
-    position: relative;
   }
 
   .title-and-form {
@@ -250,7 +242,6 @@
   }
 
   .order-title {
-    width: 542px;
     margin-top: 0px;
   }
 
@@ -258,22 +249,8 @@
     margin-bottom: 0;
   }
 
-  .form-input {
-    height: 50px;
-  }
-
-  .form-btn {
-    min-width: 168px;
-    height: 50px;
-    font-size: 16px;
-    letter-spacing: -0.04em;
-  }
-
   .order-img {
     min-width: 524px;
-    height: 521px;
-    flex-shrink: 0;
-    border-radius: 4px;
   }
 
   .image-your-order {
@@ -282,8 +259,8 @@
 
   .image-your-order::before {
     background-image: url(../img/ornament-your-order-dsctop-small@2x.png);
-    bottom: -140px;
-    left: -80px;
+    bottom: -120px;
+    left: -60px;
     height: 483px;
   }
 }
@@ -296,9 +273,6 @@
   .background-image-girl {
     background-image: url(../img/bg-girl-desctop.jpg);
     max-width: 1440px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     margin: 0 auto;
     margin-bottom: 150px;
   }
@@ -312,40 +286,19 @@
   }
 
   .your-order-main {
-    display: flex;
-    align-items: flex-start;
     flex-direction: row;
     gap: 50px;
-    width: 100%;
-  }
-
-  .image-your-order {
-    display: block;
-    position: relative;
   }
 
   .title-and-form {
     position: relative;
-    margin-right: 134px;
   }
 
   .order-title {
-    width: 542px;
-  }
-
-  .form-input {
-    height: 50px;
-  }
-
-  .form-btn {
-    min-width: 168px;
-    height: 50px;
-    font-size: 16px;
-    letter-spacing: -0.04em;
+    width: 666px;
   }
 
   .order-img {
-    min-width: 524px;
     height: 521px;
     flex-shrink: 0;
     border-radius: 4px;
@@ -357,7 +310,7 @@
 
   .image-your-order::before {
     background-image: url(../img/ornament-your-order-dsctop@2x.png);
-    bottom: -140px;
+    
     left: -160px;
   }
 }
