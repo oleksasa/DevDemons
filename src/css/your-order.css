@@ -25,7 +25,7 @@
 .order-title {
   width: 335px;
   letter-spacing: -0.03em;
-  margin-top: 80px;
+      margin-top: 80px;
   margin-bottom: 40px;
 }
 
@@ -116,7 +116,10 @@
 /* MEDIA for tablet */
 
 @media screen and (min-width: 768px) {
- 
+.your-order-main {
+  margin-bottom: 179px;
+}
+
   .background-image-girl {
     background-image: url(../img/bg-girl-tab.jpg);
     max-width: 768px;
@@ -137,10 +140,12 @@
     width: 542px;
     height: 174px;
     text-align: left;
+    margin-top: 100px;
   }
 
-  .form-order {
+  .title-and-form {
     margin-bottom: 100px;
+   
   }
 
   .form-input {
@@ -227,17 +232,17 @@
   }
 
   .your-order-main {
-    flex-direction: row;
+   flex-direction: row;
     gap: 50px;
-    max-width: 1156px;
-  }
+  } 
 
   .title-and-form {
-    margin-right: 134px;
+  margin-bottom: 100px;
+    
   }
 
   .order-title {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .form-order {
@@ -278,12 +283,7 @@
       background-image: url(../img/bg-girl-desctop@2x.jpg);
     }
   }
-
-  .your-order-main {
-    flex-direction: row;
-    gap: 50px;
-  }
-
+ 
   .title-and-form {
     position: relative;
   }
