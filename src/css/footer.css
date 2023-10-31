@@ -1,20 +1,24 @@
 /* footer */
 
-@media (min-width: 320px) {
+@media (max-width: 767px) {
   /* CSS rules for screens 320px and wider go here */
   .container-footer {
     border-top: 1px solid rgba(252, 249, 249, 0.1);
   }
 
-  .menu {
-    display: flex;
-    flex-direction: column;
-    padding-left: 20px; /* Отступ слева 20px */
-    padding-right: 75px; /* Отступ справа 75px */
-    padding-top: 40px; /* Отступ сверху 40px */
-    padding-bottom: 40px; /* Отступ снизу 40px */
+  .social-footer-container {
+    padding-left: 20px;
+    padding-right: 75px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+  }
 
   .menu-item {
     list-style: none;
@@ -25,12 +29,12 @@
 
   .footer-link-class {
     text-decoration: none; /* Убираем подчеркивание у ссылок */
- /* Цвет текста для ссылок (может быть другим) */
+    /* Цвет текста для ссылок (может быть другим) */
   }
 
-  .menu-item:first-child {
-    margin-bottom: 0; /* Убираем отступ снизу для "About us" */
-  }
+  /* .menu-item:first-child {
+    margin-bottom: 0; 
+  } 
   /* .menu {
     display: inline-flex;
     align-items: flex-start;
