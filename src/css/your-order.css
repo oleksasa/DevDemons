@@ -116,10 +116,7 @@
 /* MEDIA for tablet */
 
 @media screen and (min-width: 768px) {
-  .your-order-main {
-    max-width: 704px;
-  }
-
+ 
   .background-image-girl {
     background-image: url(../img/bg-girl-tab.jpg);
     max-width: 768px;
@@ -209,9 +206,7 @@
 /* MEDIA for desk 1280 */
 
 @media screen and (min-width: 1280px) {
-  .your-order-main {
-    max-width: 1156px;
-  }
+
 
   .background-image-girl {
     background-image: url(../img/bg-girl-desctop-small.jpg);
@@ -272,7 +267,6 @@
 @media screen and (min-width: 1440px) {
   .background-image-girl {
     background-image: url(../img/bg-girl-desctop.jpg);
-    max-width: 1440px;
     margin: 0 auto;
     margin-bottom: 150px;
   }
