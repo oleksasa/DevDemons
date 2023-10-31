@@ -85,12 +85,21 @@
   }
 
   .ornament-picture {
-    background-image: url('../img/ornament-footer-mob.png');
+    background-image: url('../../src/img/ornament-footer-mob.png');
     background-size: cover;
     background-position: center bottom; /* Сдвигаем фон к нижнему краю */
     background-repeat: no-repeat;
     height: 100vh;
     overflow: hidden;
+  }
+
+  /* @2x */
+  @media screen and (min-resolution: 192dpi) and (max-width: 767px),
+    screen and (min-resolution: 2dppx) and (max-width: 767px),
+    screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .ornament-picture {
+      background-image: url('../../src/img/ornament-footer-mob@2x.png');
+    }
   }
 }
 
