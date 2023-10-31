@@ -310,7 +310,6 @@
 
   .image-your-order::before {
     background-image: url(../img/ornament-your-order-dsctop@2x.png);
-    
     left: -160px;
   }
 }
