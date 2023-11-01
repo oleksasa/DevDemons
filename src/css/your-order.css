@@ -231,6 +231,7 @@
   .your-order-main {
     flex-direction: row;
     gap: 50px;
+    margin-bottom: 150px;
   }
 
   .title-and-form {
