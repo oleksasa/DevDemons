@@ -182,6 +182,7 @@
   .image-your-order {
     display: block;
     position: relative;
+    margin-left: auto;
   }
 
   .order-img {
