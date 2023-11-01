@@ -25,7 +25,7 @@
 .order-title {
   width: 335px;
   letter-spacing: -0.03em;
-      margin-top: 80px;
+  margin-top: 80px;
   margin-bottom: 40px;
 }
 
@@ -116,9 +116,9 @@
 /* MEDIA for tablet */
 
 @media screen and (min-width: 768px) {
-.your-order-main {
-  margin-bottom: 179px;
-}
+  .your-order-main {
+    margin-bottom: 179px;
+  }
 
   .background-image-girl {
     background-image: url(../img/bg-girl-tab.jpg);
@@ -145,7 +145,6 @@
 
   .title-and-form {
     margin-bottom: 100px;
-   
   }
 
   .form-input {
@@ -211,8 +210,6 @@
 /* MEDIA for desk 1280 */
 
 @media screen and (min-width: 1280px) {
-
-
   .background-image-girl {
     background-image: url(../img/bg-girl-desctop-small.jpg);
     max-width: 1282px;
@@ -232,13 +229,12 @@
   }
 
   .your-order-main {
-   flex-direction: row;
+    flex-direction: row;
     gap: 50px;
-  } 
+  }
 
   .title-and-form {
-  margin-bottom: 100px;
-    
+    margin-bottom: 0;
   }
 
   .order-title {
@@ -283,7 +279,7 @@
       background-image: url(../img/bg-girl-desctop@2x.jpg);
     }
   }
- 
+
   .title-and-form {
     position: relative;
   }
