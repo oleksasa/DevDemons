@@ -3,8 +3,8 @@
 .hero{
   
     padding-top: 60px;
-    padding-bottom: 80px;
-    
+    /* padding-bottom: 80px; */
+   
 }
 .absolut{
 display: none;
@@ -70,7 +70,10 @@ display: none;
       @media screen and (min-width: 768px){
 
         .hero{
-          padding: 106px 16px 100px;
+          /* padding: 106px 16px 100px; */
+          padding-top: 106px;
+          
+
          
         }
         .hero-container{
@@ -126,7 +129,8 @@ display: none;
         
         .hero{
         
-        padding: 106px 80px 150px;
+        /* padding: 106px 80px 150px; */
+        margin-bottom: 150px;
         
         
       }
@@ -160,9 +164,7 @@ display: none;
           }   
     }
       @media screen and (min-width: 1440px){
-        .hero{
-          padding-top: 106px;
-        }
+        
 
           .hero-global-title{
             font-size: 64px;
