@@ -3,8 +3,9 @@
 .hero{
   
     padding-top: 60px;
-    /* padding-bottom: 80px; */
-   
+   margin-bottom: 80px;
+
+    
 }
 .absolut{
 display: none;
@@ -71,7 +72,7 @@ display: none;
 
         .hero{
           /* padding: 106px 16px 100px; */
-          padding-top: 106px;
+          margin-bottom: 100px;
           
 
          
