@@ -18,9 +18,9 @@
   }
 }
 
- .title-and-form {
-   margin-bottom: 80px;
- }
+.title-and-form {
+  margin-bottom: 80px;
+}
 
 .image-your-order {
   display: none;
@@ -154,6 +154,7 @@
 
   .form-input {
     height: 50px;
+    width: 508px;
   }
 
   .form-input::placeholder {
@@ -162,7 +163,7 @@
   }
 
   .form-textarea {
-    width: 100%;
+    width: 508px;
   }
 
   .form-btn {
@@ -238,6 +239,7 @@
     flex-direction: row;
     gap: 50px;
     margin-bottom: 150px;
+    max-width: 1156px;
   }
 
   .title-and-form {
@@ -263,7 +265,7 @@
   .image-your-order::before {
     background-image: url(../img/ornament-your-order-dsctop-small@2x.png);
     bottom: -120px;
-    left: -100px;
+    left: -80px;
     height: 483px;
   }
 }
@@ -287,6 +289,10 @@
     }
   }
 
+  .your-order-main {
+    max-width: 1280px;
+  }
+
   .title-and-form {
     position: relative;
   }
@@ -307,7 +313,7 @@
 
   .image-your-order::before {
     background-image: url(../img/ornament-your-order-dsctop@2x.png);
-    left: -160px;
+    left: -100px;
   }
 }
 
