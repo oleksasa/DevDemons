@@ -256,7 +256,7 @@
   .image-your-order::before {
     background-image: url(../img/ornament-your-order-dsctop-small@2x.png);
     bottom: -120px;
-    left: -60px;
+    left: -100px;
     height: 483px;
   }
 }
