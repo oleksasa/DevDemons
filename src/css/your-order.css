@@ -18,6 +18,10 @@
   }
 }
 
+ .title-and-form {
+   margin-bottom: 80px;
+ }
+
 .image-your-order {
   display: none;
 }
