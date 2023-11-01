@@ -3,7 +3,7 @@
 .hero{
   
     padding-top: 60px;
-   margin-bottom: 80px;
+   /* margin-bottom: 80px; */
 
     
 }
@@ -71,8 +71,8 @@ display: none;
       @media screen and (min-width: 768px){
 
         .hero{
-          /* padding: 106px 16px 100px; */
-          margin-bottom: 100px;
+         padding-top: 80px;
+          margin-bottom: 42px;
           
 
          
@@ -130,8 +130,8 @@ display: none;
         
         .hero{
         
-        /* padding: 106px 80px 150px; */
-        margin-bottom: 150px;
+       padding-top: 106px;
+        margin-bottom: 116px;
         
         
       }
@@ -165,7 +165,9 @@ display: none;
           }   
     }
       @media screen and (min-width: 1440px){
-        
+        .hero{     
+        margin-bottom: 121px;        
+        }
 
           .hero-global-title{
             font-size: 64px;
