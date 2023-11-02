@@ -1,1 +1,130 @@
+<!-- ---------------H-e-a-d-e-r----------------- -->
 
+<header class="header">
+  <div class="header-container">
+    <img
+      class="logo-img"
+      src="../img/logo.svg"
+      alt="logo-icon"
+      width="44"
+      height="39"
+    />
+    <nav class="header-navigation">
+      <ul class="header-menu">
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#">About us</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#">Our collection </a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#">CUSTOMER ORDER</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#">TEstimonials</a>
+        </li>
+      </ul>
+    </nav>
+    <address class="address">
+      <ul class="address-menu">
+        <li class="address-item">
+          <a class="address-link" href="tel:+380684439426"
+            >+380 (68) 443-94-26</a
+          >
+        </li>
+      </ul>
+    </address>
+
+    <ul class="soc-menu">
+      <li class="soc-item">
+        <a
+          class="soc-link"
+          href="https://www.facebook.com/goITclub/ "
+          target="_blank"
+          ><svg class="soc-icon" width="28" height="28">
+            <use href="../img/symbol-defs.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="soc-item">
+        <a
+          class="soc-link"
+          href="https://www.instagram.com/goitclub/ "
+          target="_blank"
+          ><svg class="soc-icon" width="28" height="28">
+            <use href="../img/symbol-defs.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="soc-item">
+        <a
+          class="soc-link"
+          href="https://www.youtube.com/c/GoIT "
+          target="_blank"
+          ><svg class="soc-icon" width="28" height="28">
+            <use href="../img/symbol-defs.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+    <button data-menu-open type="button" class="burger">
+      <span></span>
+    </button>
+  </div>
+
+  <!-- -------------Mob-menu------------ -->
+
+  <div data-menu class="mobile-menu">
+    <div class="menu-cont">
+      <address class="mob-address">
+        <ul class="mob-address-menu">
+          <li class="mob-address-item">
+            <a class="mob-address-link" href="tel:+380684439426"
+              >+380 (68) 443-94-26</a
+            >
+          </li>
+        </ul>
+      </address>
+      <button data-menu-close type="button" class="menu-close">
+        <a href="#" class="close"></a>
+      </button>
+    </div>
+    <div>
+      <nav class="mob-header-navigation">
+        <ul class="mob-header-menu">
+          <li class="mob-header-menu-item">
+            <a class="menu-link" href="#">About us</a>
+          </li>
+          <li class="mob-header-menu-item">
+            <a class="menu-link" href="#">Our collection </a>
+          </li>
+          <li class="mob-header-menu-item">
+            <a class="menu-link" href="#">CUSTOMER ORDER</a>
+          </li>
+          <li class="mob-header-menu-item">
+            <a class="menu-link" href="#">TEstimonials</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <picture>
+      <source
+        srcset="./img/ornament-menu-tab.png 1x, img/ornament-menu-tab@2x.png 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="./img/ornament-menu-mob.png 1x, img/ornament-menu-mob@2x.png 2x"
+        media="(max-width: 767px)"
+      />
+      <img
+        src="./img/ornament-menu-mob.png"
+        alt="Ornament"
+        class="mobile-ornament"
+        width="340px"
+        height="302px"
+      />
+    </picture>
+    <script src="./js/menu.js"></script>
+  </div>
+</header>
