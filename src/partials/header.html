@@ -68,9 +68,9 @@
       </li>
     </ul>
 
-    <div class="burger">
+    <button data-menu-open type="button" class="burger">
       <span></span>
-    </div>
+    </button>
   </div>
 
   <!-- -------------Mob-menu------------ -->
@@ -86,7 +86,7 @@
           </li>
         </ul>
       </address>
-      <button type="button" class="menu-close">
+      <button data-menu-close type="button" class="menu-close">
         <a href="#" class="close"></a>
       </button>
     </div>
@@ -117,16 +117,14 @@
         srcset="./img/ornament-menu-mob.png 1x, img/ornament-menu-mob@2x.png 2x"
         media="(max-width: 767px)"
       />
-      <img src="./img/ornament-menu-mob.png" alt="Ornament"
-      class="mobile-ornament" width: 340px; height: 302px; />
+      <img
+        src="./img/ornament-menu-mob.png"
+        alt="Ornament"
+        class="mobile-ornament"
+        width="340px"
+        height="302px"
+      />
     </picture>
+    <script src="./js/menu.js"></script>
   </div>
-
-  <script>
-    document.querySelector('.burger').addEventListener('click', function () {
-      this.classList.toggle('active');
-      document.querySelector('.mobile-menu').classList.toggle('open');
-    });
-  </script>
-  <!-- <script src="./js/menu.js"></script> -->
 </header>
