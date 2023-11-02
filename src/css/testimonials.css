@@ -1,5 +1,5 @@
 .testimonials {
-  margin: 80px 0;
+  margin-bottom: 80px;
 }
 
 .testimonials__title {
@@ -66,7 +66,7 @@
 
 @media screen and (min-width: 768px) {
   .testimonials {
-    margin: 100px 0;
+    margin-bottom: 100px;
   }
 
   .testimonials__list {
@@ -76,7 +76,7 @@
 
 @media screen and (min-width: 1280px) {
   .testimonials {
-    margin: 150px 0;
+    margin-bottom: 150px;
   }
 
   .testimonials__list {
