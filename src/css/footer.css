@@ -7,17 +7,16 @@
   }
 
   .social-footer-container {
-    padding-left: 20px;
-    padding-right: 75px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 280px;
   }
 
   .menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 40px;
+    row-gap: 25px;
   }
 
   .menu-item {
@@ -32,27 +31,13 @@
     /* Цвет текста для ссылок (может быть другим) */
   }
 
-  /* .menu-item:first-child {
-    margin-bottom: 0; 
-  } 
-  /* .menu {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
-    padding-left: 20px;
-    padding-top: 40px;
-    padding-right: 75px;
-    padding-bottom: 40px;
-    position: relative;
-  } */
-
   .footer-link-class {
     color: var(--white, #fcf9f9);
     font-family: Manrope;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px; /* 128.571% */
+    line-height: 1.28; /* 128.571% */
     text-transform: uppercase;
   }
 
@@ -70,7 +55,7 @@
     font-size: 44px;
     font-style: normal;
     font-weight: 400;
-    line-height: 54px; /* 122.727% */
+    line-height: 1.22; /* 122.727% */
     letter-spacing: -1.32px;
   }
 
@@ -103,27 +88,98 @@
   }
 }
 
-/* Media query for screens with a minimum width of 375px */
-@media (min-width: 375px) {
-  /* CSS rules for screens 375px and wider go here */
-}
-
 /* Media query for screens with a minimum width of 768px */
-@media (min-width: 768px) {
-  /* CSS rules for screens 768px and wider go here */
-}
+@media screen and (min-width: 767px) and (max-width: 1158px) {
+  .container-footer {
+    border-top: 1px solid rgba(252, 249, 249, 0.1);
+  }
 
-/* Media query for screens with a minimum width of 1280px */
-@media (min-width: 1280px) {
-  /* CSS rules for screens 1280px and wider go here */
-}
+  .social-footer-container {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 32px;
+    margin-right: 84px;
+  }
 
-/* Media query for screens with a minimum width of 1440px */
-@media (min-width: 1440px) {
-  /* CSS rules for screens 1440px and wider go here */
-}
+  .menu {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 25px;
+  }
 
-.ukrainian-span {
+  .footer-link-class {
+    color: var(--white, #fcf9f9);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28; /* 128.571% */
+    text-transform: uppercase;
+  }
+
+  /* for text container: */
+  .container-footer-div {
+    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-right: 41px;
+    margin-top: 80px;
+  }
+
+  .footer-paragraph-text {
+    color: var(--white, #fcf9f9);
+    font-family: Manrope;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.18; /* 118.519% */
+    letter-spacing: -1.62px;
+  }
+
+  .ukrainian-span {
+    color: var(--white, #ecd979);
+    font-family: Manrope;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: -1.62px;
+  }
+
+  .ornament-picture {
+    background-image: url('../img/ornament-footer-tab.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: auto;
+    /* margin-left: auto;
+    background-size: 50%; */
+  }
+
+  @media (max-width: 768px) {
+    .picture {
+      display: flex;
+      width: 452px;
+      height: 401px;
+      padding-right: 0px;
+      justify-content: center;
+      align-items: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-right: auto;
+      background-position: right center
+    }
+  }
+
+  /* Media query for screens with a minimum width of 1280px */
+  @media (min-width: 1280px) {
+  }
+
+  /* Media query for screens with a minimum width of 1440px */
+  @media (min-width: 1440px) {
+    /* CSS rules for screens 1440px and wider go here */
+  }
+
+  /* .ukrainian-span {
   color: var(--white, #ecd979);
   font-family: Manrope;
   font-size: 64px;
@@ -131,4 +187,5 @@
   font-weight: 400;
   line-height: 74px;
   letter-spacing: -1.92px;
+} */
 }
