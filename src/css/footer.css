@@ -72,7 +72,7 @@
   .ornament-picture {
     background-image: url('../../src/img/ornament-footer-mob.png');
     background-size: cover;
-    background-position: center bottom; /* Сдвигаем фон к нижнему краю */
+    background-position: center bottom; 
     background-repeat: no-repeat;
     height: 100vh;
     overflow: hidden;
@@ -81,7 +81,7 @@
   /* @2x */
   @media screen and (min-resolution: 192dpi) and (max-width: 767px),
     screen and (min-resolution: 2dppx) and (max-width: 767px),
-    screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px) {
     .ornament-picture {
       background-image: url('../../src/img/ornament-footer-mob@2x.png');
     }
@@ -148,11 +148,19 @@
   .ornament-picture {
     background-image: url('../img/ornament-footer-tab.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-size: cover;
     margin-right: auto;
     /* margin-left: auto;
     background-size: 50%; */
+  }
+
+  @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px),
+    screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .ornament-picture {
+      background-image: url('../img/ornament-footer-tab@2x.png');
+    }
   }
 
   @media (max-width: 768px) {
@@ -166,12 +174,74 @@
       background-repeat: no-repeat;
       background-size: cover;
       margin-right: auto;
-      background-position: right center
+      background-position: right center;
     }
   }
 
   /* Media query for screens with a minimum width of 1280px */
-  @media (min-width: 1280px) {
+  @media  screen and (min-width: 1280px) {
+    .container-footer {
+      border-top: 1px solid rgba(252, 249, 249, 0.1);
+    }
+
+    .social-footer-container {
+      margin-top: 40px;
+      margin-left: 100px;
+      margin-bottom: 117px;
+      margin-right: 366px;
+    }
+
+    .menu {
+      display: inline-flex;
+      align-items: flex-start;
+      gap: 25px;
+    }
+
+    .footer-link-class {
+      color: var(--white, #fcf9f9);
+      font-family: Manrope;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.28; /* 128.571% */
+      text-transform: uppercase;
+    }
+
+    /* for text container: */
+    .container-footer-div {
+      margin-bottom: 40px;
+      margin-left: 100px;
+    }
+
+    .footer-paragraph-text {
+      color: var(--white, #fcf9f9);
+      font-family: Manrope;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.15; /* 115.625% */
+      letter-spacing: -1.92px;
+    }
+
+    .ukrainian-span {
+      color: var(--white, #ecd979);
+      font-family: Manrope;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.15;
+      letter-spacing: -1.92px;
+    }
+
+    .ornament-picture {
+      background-image: url('../img/ornament-footer-desctop-small.png');
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: cover;
+      margin-right: auto;
+    }
+
+
   }
 
   /* Media query for screens with a minimum width of 1440px */
