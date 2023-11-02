@@ -1,56 +1,32 @@
 /* about-us */
-.about-us {
-  padding: 80px 20px;
-} 
+
 .about-container {
+  margin-bottom: 18px;
   background-image: url(../img/ornament-about-use-mob.png);
   background-repeat: no-repeat;
-  background-position: right;
-  background-position-y: 724px;
-  background-size: auto;
-  margin: 0 auto;
+  background-position: bottom right;
+  background-size: auto 408px;
+  padding-bottom: 62px;
 }
-
 
 @media (min-device-pixer-ratio: 2),
   (min-resolution: 196dpi),
   (min-resolution: 2dppx) {
   .about-container {
-    background-image: url(../img/ornament-about-use-mob@2x.png);
+    background-image: url(../img/ornament-about-use-mob@2x.png); 
   }
-}
-
-.text:hover {
-  color: rgb(148, 149, 149);
-}
-
-.title {
-  margin-bottom: 40px;
-  padding-left: 6px;
 }
 
 .about-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-bottom: 50px;
+  margin: 40px 0;
 }
 
-.about-text {
-  padding: 6px;
-  transition: transform 0.7s, color 0.7s;
-  cursor: pointer;
-}
-
-.about-text:hover,
-.about-text:focus {
-  transform: scale(1.1);
-border-radius: 5px;
-  border: 2px solid rgba(187, 192, 35, 0.804);
-}
-.text:hover,
-.text:focus {
-  color: rgb(175, 176, 178);
+.about-group-text {
+  display: flex;
+  flex-direction: column;
 }
 
 .about-img-inner {
@@ -60,26 +36,15 @@ border-radius: 5px;
 /*================== Screen 768 =============*/
 
 @media screen and (min-width: 768px) {
-  .about-us {
-    padding: 100px 32px;
-    max-width: 768px;
-  }
-
-  .about-us-group {
-    gap: 40px;
-  }
-
-  .about-list {
-    margin-bottom: 40px;
-  }
-
   .about-container {
+    max-width: 1280px;
+    margin-bottom: 50px;
     background-image: url(../img/ornament-about-use-tab.png);
-
     background-repeat: no-repeat;
-    background-position: right;
-    background-position-y: 92%;
-    background-size: auto ;
+    background-position: bottom right;
+    background-size: auto 484px;
+    padding: 0 100px 80px;
+   
   }
 
   @media (min-device-pixer-ratio: 2),
@@ -89,90 +54,62 @@ border-radius: 5px;
       background-image: url(../img/ornament-about-use-tab@2x.png);
     }
   }
-  .about-img-inner {
-    width: 704px;
-    height: 545px;
-  }
 }
-/*================== /Screen 768 =============*/
-
-/*================== Screen 1280 =============*/
 
 @media screen and (min-width: 1280px) {
-  .about-us {
-    padding: 150px 100px;
-    max-width: 1440px;
-  }
-  .about-us-group {
+  .about-container {
+    margin-bottom: 70px;
     display: flex;
     flex-direction: row;
-    gap: 50px;
-  }
-
-  .about-list {
-    max-width: 481px;
-  }
-
-  .about-container {
     background-image: url(../img/ornament-about-use-dsctop-smal.png);
-
     background-repeat: no-repeat;
-    background-position: right;
-    background-position-y: 290px;
- background-size: auto;
-    margin: 0 auto;
+    background-position: bottom right;
+    padding-bottom: 30px;
   }
 
   @media (min-device-pixer-ratio: 2),
-    (min-resolution: 196dpi),
-    (min-resolution: 2dppx) {
-    .about-container {
-      background-image: url(../img/ornament-about-use-dsctop-small@2x.png);
-    }
-  }
-  .about-group-text {
-    margin: 46px 0;
-  }
-
-  .about-img-inner {
-    width: 594px;
-    height: 545px;
+  (min-resolution: 196dpi),
+  (min-resolution: 2dppx) {
+  .about-container {
+   background-image: url(../img/ornament-about-use-dsctop-small@2x.png);
   }
 }
+
+  .about-list {
+    margin-bottom: 0;
+    max-width: 436px;
+    margin-right: 50px;
+  }
+
+  .about-group-text {
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+ 
 
 /*================== /Screen 1280 =============*/
 
 /*================== Screen 1440 =============*/
 
 @media screen and (min-width: 1440px) {
-  .about-container {
+   .about-container {
+    max-width: 1440px;
     background-image: url(../img/ornament-about-use-dsctop.png);
-
     background-repeat: no-repeat;
-    background-position: right;
-    background-position-y: 290px;
-   background-size: auto;
-    margin: 0 auto;
-  }
+    background-position: bottom right;
+    padding-bottom:  0 100px 70px;
+   }
 
   @media (min-device-pixer-ratio: 2),
     (min-resolution: 196dpi),
     (min-resolution: 2dppx) {
     .about-container {
-      background-image: url(../img/ornament-about-use-dsctop-@2x.png);
+     background-image: url(../img/ornament-about-use-dsctop-@2x.png);
     }
   }
-  
 
-
-  .about-group-text {
-    margin: 78px 0;
-  }
-
-  .about-img-inner {
-    width: 709px;
-    height: 545px;
+  .about-list {
+    max-width: 481px;
   }
 }
-
-/*================== /Screen 1440 =============*/
