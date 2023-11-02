@@ -1,15 +1,16 @@
 /* about-us */
-/*.about-us {
+.about-us {
   padding: 80px 20px;
-} */
+} 
 .about-container {
   background-image: url(../img/ornament-about-use-mob.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-position-y: bottom;
-  background-size: auto 408px;
+  background-position-y: 724px;
+  background-size: auto;
   margin: 0 auto;
 }
+
 
 @media (min-device-pixer-ratio: 2),
   (min-resolution: 196dpi),
@@ -59,10 +60,10 @@ border-radius: 5px;
 /*================== Screen 768 =============*/
 
 @media screen and (min-width: 768px) {
-  /*.about-us {
+  .about-us {
     padding: 100px 32px;
     max-width: 768px;
-  }*/
+  }
 
   .about-us-group {
     gap: 40px;
@@ -77,8 +78,8 @@ border-radius: 5px;
 
     background-repeat: no-repeat;
     background-position: right;
-    background-position-y: bottom;
-    background-size: auto 484px;
+    background-position-y: 92%;
+    background-size: auto ;
   }
 
   @media (min-device-pixer-ratio: 2),
@@ -88,20 +89,20 @@ border-radius: 5px;
       background-image: url(../img/ornament-about-use-tab@2x.png);
     }
   }
-  /*.about-img-inner {
+  .about-img-inner {
     width: 704px;
     height: 545px;
-  }*/
+  }
 }
 /*================== /Screen 768 =============*/
 
 /*================== Screen 1280 =============*/
 
 @media screen and (min-width: 1280px) {
-  /*.about-us {
+  .about-us {
     padding: 150px 100px;
     max-width: 1440px;
-  }*/
+  }
   .about-us-group {
     display: flex;
     flex-direction: row;
@@ -117,8 +118,8 @@ border-radius: 5px;
 
     background-repeat: no-repeat;
     background-position: right;
-    background-position-y: bottom;
-    /*background-size: auto;*/
+    background-position-y: 290px;
+ background-size: auto;
     margin: 0 auto;
   }
 
@@ -133,10 +134,10 @@ border-radius: 5px;
     margin: 46px 0;
   }
 
-  /*.about-img-inner {
+  .about-img-inner {
     width: 594px;
     height: 545px;
-  }*/
+  }
 }
 
 /*================== /Screen 1280 =============*/
@@ -149,8 +150,8 @@ border-radius: 5px;
 
     background-repeat: no-repeat;
     background-position: right;
-    background-position-y: bottom;
-   /* background-size: auto;*/
+    background-position-y: 290px;
+   background-size: auto;
     margin: 0 auto;
   }
 
@@ -161,15 +162,17 @@ border-radius: 5px;
       background-image: url(../img/ornament-about-use-dsctop-@2x.png);
     }
   }
+  
+
 
   .about-group-text {
     margin: 78px 0;
   }
 
- /* .about-img-inner {
+  .about-img-inner {
     width: 709px;
     height: 545px;
-  }*/
+  }
 }
 
 /*================== /Screen 1440 =============*/
