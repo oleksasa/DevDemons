@@ -1,261 +1,148 @@
 /* footer */
 
-@media (max-width: 767px) {
-  /* CSS rules for screens 320px and wider go here */
-  .container-footer {
-    border-top: 1px solid rgba(252, 249, 249, 0.1);
-  }
+.footer {
+  border-top: 1px solid rgba(252, 249, 249, 0.1);
+}
 
-  .social-footer-container {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    max-width: 280px;
-  }
+.container-footer {
+  min-height: 649px;
+}
 
-  .menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 25px;
-  }
+.footer {
+  background-image: url(../img/ornament-footer-mob.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain; 
+}
 
-  .menu-item {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 20px; /* Отступ между элементами */
-  }
-
-  .footer-link-class {
-    text-decoration: none; /* Убираем подчеркивание у ссылок */
-    /* Цвет текста для ссылок (может быть другим) */
-  }
-
-  .footer-link-class {
-    color: var(--white, #fcf9f9);
-    font-family: Manrope;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.28; /* 128.571% */
-    text-transform: uppercase;
-  }
-
-  .container-footer-div {
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 80px;
-    margin-right: 40px;
-    text-align: left;
-  }
-
-  .footer-paragraph-text {
-    color: var(--white, #fcf9f9);
-    font-family: Manrope;
-    font-size: 44px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.22; /* 122.727% */
-    letter-spacing: -1.32px;
-  }
-
-  .ukrainian-span {
-    color: var(--white, #ecd979);
-    font-family: Manrope;
-    font-size: 44px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 54px;
-    letter-spacing: -1.32px;
-  }
-
-  .ornament-picture {
-    background-image: url('../../src/img/ornament-footer-mob.png');
-    background-size: cover;
-    background-position: center bottom; 
-    background-repeat: no-repeat;
-    height: 100vh;
-    overflow: hidden;
-  }
-
-  /* @2x */
-  @media screen and (min-resolution: 192dpi) and (max-width: 767px),
-    screen and (min-resolution: 2dppx) and (max-width: 767px),
-    screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px) {
-    .ornament-picture {
-      background-image: url('../../src/img/ornament-footer-mob@2x.png');
-    }
+@media (min-device-pixer-ratio: 2),
+  (min-resolution: 196dpi),
+  (min-resolution: 2dppx) {
+  .footer {
+    background-image: url(../img/ornament-footer-mob@2x.png);
   }
 }
 
-/* Media query for screens with a minimum width of 768px */
-@media screen and (min-width: 767px) and (max-width: 1158px) {
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  row-gap: 25px;
+  max-height: 65px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-item {
+  width: fit-content;
+}
+
+.ukrainian-span {
+  color: #ecd979;
+  font-size: 44px;
+  font-style: normal;
+  line-height: 54px;
+  letter-spacing: -1.32px;
+}
+
+@media screen and (min-width: 768px) {
   .container-footer {
-    border-top: 1px solid rgba(252, 249, 249, 0.1);
+    min-height: 370px;
   }
 
+.footer {
+  background-image: url(../img/ornament-footer-tab.png);
+  background-position: right;
+}
+
+  @media (min-device-pixer-ratio: 2),
+    (min-resolution: 196dpi),
+    (min-resolution: 2dppx) {
+    .footer {
+      background-image: url(../img/ornament-footer-tab@2x.png);
+    }
+  }
+
+  .menu {
+    min-height: auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 25px;
+    margin-bottom: 80px;
+  }
+
+  .title-footer {
+    max-width: 521px;
+  }
+
+  .ukrainian-span {
+    font-size: 54px;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: -1.62px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
   .social-footer-container {
     margin-top: 40px;
-    margin-bottom: 80px;
-    margin-left: 32px;
-    margin-right: 84px;
+    margin-left: 100px;
+    margin-bottom: 117px;
+    margin-right: 366px;
+    
+  }
+
+  .footer {
+    background-image: url(../img/ornament-footer-desctop-small.png);
+    
+  }
+
+  @media (min-device-pixer-ratio: 2),
+    (min-resolution: 196dpi),
+    (min-resolution: 2dppx) {
+    .footer {
+      background-image: url(../img/ornament-footer-desctop-small@2x.png);
+     
+    }
   }
 
   .menu {
     display: inline-flex;
     align-items: flex-start;
     gap: 25px;
+    margin-bottom: 117px;
   }
 
-  .footer-link-class {
-    color: var(--white, #fcf9f9);
-    font-family: Manrope;
-    font-size: 14px;
+  .title-footer {
+    min-width: 754px;
+    font-size: 64px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.28; /* 128.571% */
-    text-transform: uppercase;
+    line-height: 74px;
+    letter-spacing: -1.92px;
   }
 
-  /* for text container: */
-  .container-footer-div {
-    margin-left: 30px;
-    margin-bottom: 40px;
-    margin-right: 41px;
-    margin-top: 80px;
+}
+
+@media screen and (min-width: 1440px) {
+
+  .container-footer {
+    min-height: 363px;
   }
 
-  .footer-paragraph-text {
-    color: var(--white, #fcf9f9);
-    font-family: Manrope;
-    font-size: 54px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.18; /* 118.519% */
-    letter-spacing: -1.62px;
+  .footer {
+    background-image: url(../img/ornament-footer-desctop.png); 
   }
 
-  .ukrainian-span {
-    color: var(--white, #ecd979);
-    font-family: Manrope;
-    font-size: 54px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.18;
-    letter-spacing: -1.62px;
-  }
-
-  .ornament-picture {
-    background-image: url('../img/ornament-footer-tab.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-    margin-right: auto;
-    /* margin-left: auto;
-    background-size: 50%; */
-  }
-
-  @media screen and (min-resolution: 192dpi) and (min-width: 768px),
-    screen and (min-resolution: 2dppx) and (min-width: 768px),
-    screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px) {
-    .ornament-picture {
-      background-image: url('../img/ornament-footer-tab@2x.png');
+  @media (min-device-pixer-ratio: 2),
+    (min-resolution: 196dpi),
+    (min-resolution: 2dppx) {
+    .footer {
+      background-image: url(../img/ornament-footer-desctop.png);
+     
     }
   }
 
-  @media (max-width: 768px) {
-    .picture {
-      display: flex;
-      width: 452px;
-      height: 401px;
-      padding-right: 0px;
-      justify-content: center;
-      align-items: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      margin-right: auto;
-      background-position: right center;
-    }
-  }
 
-  /* Media query for screens with a minimum width of 1280px */
-  @media  screen and (min-width: 1280px) {
-    .container-footer {
-      border-top: 1px solid rgba(252, 249, 249, 0.1);
-    }
-
-    .social-footer-container {
-      margin-top: 40px;
-      margin-left: 100px;
-      margin-bottom: 117px;
-      margin-right: 366px;
-    }
-
-    .menu {
-      display: inline-flex;
-      align-items: flex-start;
-      gap: 25px;
-    }
-
-    .footer-link-class {
-      color: var(--white, #fcf9f9);
-      font-family: Manrope;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 1.28; /* 128.571% */
-      text-transform: uppercase;
-    }
-
-    /* for text container: */
-    .container-footer-div {
-      margin-bottom: 40px;
-      margin-left: 100px;
-    }
-
-    .footer-paragraph-text {
-      color: var(--white, #fcf9f9);
-      font-family: Manrope;
-      font-size: 64px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 1.15; /* 115.625% */
-      letter-spacing: -1.92px;
-    }
-
-    .ukrainian-span {
-      color: var(--white, #ecd979);
-      font-family: Manrope;
-      font-size: 64px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 1.15;
-      letter-spacing: -1.92px;
-    }
-
-    .ornament-picture {
-      background-image: url('../img/ornament-footer-desctop-small.png');
-      background-repeat: no-repeat;
-      background-position: right;
-      background-size: cover;
-      margin-right: auto;
-    }
-
-
-  }
-
-  /* Media query for screens with a minimum width of 1440px */
-  @media (min-width: 1440px) {
-    /* CSS rules for screens 1440px and wider go here */
-  }
-
-  /* .ukrainian-span {
-  color: var(--white, #ecd979);
-  font-family: Manrope;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 74px;
-  letter-spacing: -1.92px;
-} */
 }

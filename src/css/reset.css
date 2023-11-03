@@ -59,7 +59,6 @@ button {
 
 .title {
   color: #fcf9f9;
-  font-family: Manrope;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
@@ -69,11 +68,11 @@ button {
 
 .global-title {
   color: #fcf9f9;
-  font-family: Manrope;
   font-size: 44px;
+  font-weight: 400;
   font-style: normal;
-  line-height: 1.15;
-  letter-spacing: -1.92px;
+  line-height: 1.22;
+  letter-spacing: -1.32px;
 }
 
 .text {

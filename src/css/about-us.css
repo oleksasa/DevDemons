@@ -13,7 +13,7 @@
   (min-resolution: 196dpi),
   (min-resolution: 2dppx) {
   .about-container {
-    background-image: url(../img/ornament-about-use-mob@2x.png); 
+    background-image: url(../img/ornament-about-use-mob@2x.png);
   }
 }
 
@@ -44,7 +44,6 @@
     background-position: bottom right;
     background-size: auto 484px;
     padding: 0 100px 80px;
-   
   }
 
   @media (min-device-pixer-ratio: 2),
@@ -68,12 +67,12 @@
   }
 
   @media (min-device-pixer-ratio: 2),
-  (min-resolution: 196dpi),
-  (min-resolution: 2dppx) {
-  .about-container {
-   background-image: url(../img/ornament-about-use-dsctop-small@2x.png);
+    (min-resolution: 196dpi),
+    (min-resolution: 2dppx) {
+    .about-container {
+      background-image: url(../img/ornament-about-use-dsctop-small@2x.png);
+    }
   }
-}
 
   .about-list {
     margin-bottom: 0;
@@ -86,26 +85,25 @@
     align-items: flex-start;
   }
 }
- 
 
 /*================== /Screen 1280 =============*/
 
 /*================== Screen 1440 =============*/
 
 @media screen and (min-width: 1440px) {
-   .about-container {
+  .about-container {
     max-width: 1440px;
     background-image: url(../img/ornament-about-use-dsctop.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    padding-bottom:  0 100px 70px;
-   }
+    padding-bottom: 0 100px 70;
+  }
 
   @media (min-device-pixer-ratio: 2),
     (min-resolution: 196dpi),
     (min-resolution: 2dppx) {
     .about-container {
-     background-image: url(../img/ornament-about-use-dsctop-@2x.png);
+      background-image: url(../img/ornament-about-use-dsctop-@2x.png);
     }
   }
 
