@@ -139,7 +139,7 @@
     (min-resolution: 196dpi),
     (min-resolution: 2dppx) {
     .footer {
-      background-image: url(../img/ornament-footer-desctop.png);
+      background-image: url(../img/elements-footer-orn-desctop@2x.png);
      
     }
   }
