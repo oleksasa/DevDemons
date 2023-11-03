@@ -12,7 +12,7 @@
   background-image: url(../img/ornament-footer-mob.png);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: contain; 
+  background-size: contain;
 }
 
 @media (min-device-pixer-ratio: 2),
@@ -51,10 +51,10 @@
     min-height: 370px;
   }
 
-.footer {
-  background-image: url(../img/ornament-footer-tab.png);
-  background-position: right;
-}
+  .footer {
+    background-image: url(../img/ornament-footer-tab.png);
+    background-position: right;
+  }
 
   @media (min-device-pixer-ratio: 2),
     (min-resolution: 196dpi),
@@ -90,12 +90,10 @@
     margin-left: 100px;
     margin-bottom: 117px;
     margin-right: 366px;
-    
   }
 
   .footer {
     background-image: url(../img/ornament-footer-desctop-small.png);
-    
   }
 
   @media (min-device-pixer-ratio: 2),
@@ -103,7 +101,6 @@
     (min-resolution: 2dppx) {
     .footer {
       background-image: url(../img/ornament-footer-desctop-small@2x.png);
-     
     }
   }
 
@@ -122,17 +119,15 @@
     line-height: 74px;
     letter-spacing: -1.92px;
   }
-
 }
 
 @media screen and (min-width: 1440px) {
-
   .container-footer {
     min-height: 363px;
   }
 
   .footer {
-    background-image: url(../img/ornament-footer-desctop.png); 
+    background-image: url(../img/ornament-footer-desctop.png);
   }
 
   @media (min-device-pixer-ratio: 2),
@@ -140,9 +135,6 @@
     (min-resolution: 2dppx) {
     .footer {
       background-image: url(../img/elements-footer-orn-desctop@2x.png);
-     
     }
   }
-
-
 }
