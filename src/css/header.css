@@ -47,9 +47,7 @@
   text-decoration: none;
 }
 
-.header-menu-link:hover {
-  color: var(--yellow, #ecd979);
-}
+
 
 .address {
   font-style: normal;
@@ -67,9 +65,7 @@
   text-decoration: none;
 }
 
-.address-item:hover {
-  border: 1px solid var(--yellow, #ecd979);
-}
+
 
 .soc-menu {
   display: flex;
@@ -138,23 +134,25 @@
 
 .mobile-menu {
   opacity: 0;
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 0;
-  width: 0;
+  width: 100%;
+  max-width: 274px;
   background-color: #ecd979;
   height: 100vh;
   padding-top: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   transition: all 300ms;
   overflow: hidden;
   z-index: 51;
+  transform: translateX(100%);
 }
+
 .mobile-menu.is-open {
-  width: 274px;
   opacity: 1;
+  transform: translateX(0);
 }
 
 .image-container {
@@ -204,15 +202,14 @@
 /* -------------------- Close--------------- */
 .menu-close {
   position: absolute;
+  z-index: 5;
   right: 20px;
   top: 35px;
   width: 32px;
   height: 32px;
-  opacity: 0.3;
 }
-.menu-close:hover {
-  opacity: 1;
-}
+
+
 .menu-close:before,
 .menu-close:after {
   position: absolute;
@@ -223,12 +220,15 @@
   width: 2px;
   background-color: #070707;
 }
+
 .menu-close:before {
   transform: rotate(45deg);
 }
+
 .menu-close:after {
   transform: rotate(-45deg);
 }
+
 /* --------------------№№№№№----------------- */
 
 .mob-header-navigation,
@@ -272,10 +272,6 @@
   .header-menu {
     display: none;
   }
-
-  .mobile-menu {
-    display: block;
-  }
 }
 
 @media (min-width: 768px) {
@@ -293,28 +289,29 @@
   }
 
   .mobile-menu.is-open {
-    width: 380px;
-  }
-
-  .mob-address-menu {
-  }
-
-  .mob-header-menu {
+    max-width: 380px;
   }
 }
 
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .header .header-container {
     justify-content: space-between;
   }
 
-  .header {
+  .header-menu-link:hover {
+    color: var(--yellow, #ecd979);
+  }
+
+  .address-item:hover {
+    border: 1px solid var(--yellow, #ecd979);
   }
 
   .burger {
     display: none;
   }
-  .header-container {
+
+  .mobile-menu {
+    display: none;
   }
 
   .header-menu {
@@ -352,9 +349,6 @@
 }
 
 @media (min-width: 1440px) {
-  .header-container {
-  }
-
   .header {
     padding-top: 18px;
   }
